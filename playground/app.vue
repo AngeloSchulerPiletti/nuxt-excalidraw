@@ -1,8 +1,10 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <div>
-    Nuxt module playground!
+    <ClientOnly>
+      <ExcalidrawBoard />
+    </ClientOnly>
   </div>
 </template>
-
-<script setup>
-</script>
