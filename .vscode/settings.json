@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.rulers": [
+    80
+  ],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.compactFolders": false,
+  "workbench.tree.indent": 16,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "prettier.requireConfig": true
+}
