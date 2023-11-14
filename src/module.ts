@@ -1,19 +1,30 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import {
+  addComponent,
+  createResolver,
+  defineNuxtModule,
+} from '@nuxt/kit'
+import react from '@vitejs/plugin-react'
 
-// Module options TypeScript interface definition
 export interface ModuleOptions {}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'my-module',
-    configKey: 'myModule'
+    name: 'nuxt-excalidraw',
+    compatibility: {
+      nuxt: '^3.0.0',
+    },
   },
-  // Default configuration options of the Nuxt module
-  defaults: {},
-  setup (options, nuxt) {
+
+  setup(_options, nuxt) {
+    nuxt.options.vite ||= {}
+    nuxt.options.vite.plugins ||= []
+    nuxt.options.vite.plugins.push(react())
+
     const resolver = createResolver(import.meta.url)
 
-    // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve('./runtime/plugin'))
-  }
+    addComponent({
+      name: 'ExcalidrawBoard',
+      filePath: resolver.resolve('./runtime/components/ExcalidrawBoard.vue'),
+    })
+  },
 })
