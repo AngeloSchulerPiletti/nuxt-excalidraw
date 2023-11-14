@@ -3,8 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Nuxt Excalidraw allow you to use the amazing React library Excalidraw inside your Nuxt 3 application.",
-  "license": "MIT",
   "author": "Angelo Schuler Piletti <angelopiletti@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AngeloSchulerPiletti/nuxt-excalidraw"
