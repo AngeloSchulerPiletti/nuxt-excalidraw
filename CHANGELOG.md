@@ -1,5 +1,18 @@
 
 
+## [1.0.0-beta.2](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.1...1.0.0-beta.2) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: use ES6 async import ([e2679ad](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/e2679adbbc6fca3ea003d32ce6b684f60e3292eb))
+
+
+### 🎨 Style
+
+* :art: lint fix code ([b827362](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/b82736258eb60b629b20dd9e5a8d4c3c7d61487f))
+* :art: remove unecessary brackets ([98178f5](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/98178f52779963a1da56b7e9e1d56c78d894e38d))
+
 ## [1.0.0-beta.1](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.0...1.0.0-beta.1) (2023-11-15)
 
 
