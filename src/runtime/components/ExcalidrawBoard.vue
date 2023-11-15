@@ -17,11 +17,11 @@ onMounted(async () => {
     root = createRoot(excalidrawRef.value)
 
     let _Excalidraw: any
-      const Excalidraw = await import('@excalidraw/excalidraw')
+    const Excalidraw = await import('@excalidraw/excalidraw')
 
-    if (Excalidraw.default) 
+    if (Excalidraw.default)
       _Excalidraw = Excalidraw.default
-    else 
+    else
       _Excalidraw = Excalidraw.Excalidraw
 
     root.render(React.createElement(_Excalidraw, props as any))
