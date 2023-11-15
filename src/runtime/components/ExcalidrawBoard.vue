@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
-import ExcalidrawDefault from '@excalidraw/excalidraw'
 import React from 'react'
 import { type Root, createRoot } from 'react-dom/client'
 import type { Ref } from 'vue'
@@ -16,12 +15,14 @@ let root: null | Root = null
 onMounted(async () => {
   if (excalidrawRef.value) {
     root = createRoot(excalidrawRef.value)
+
     let _Excalidraw: any
-    if (ExcalidrawDefault) {
-      _Excalidraw = ExcalidrawDefault
+      const Excalidraw = await import('@excalidraw/excalidraw')
+
+    if (Excalidraw.default) {
+      _Excalidraw = Excalidraw.default
     }
     else {
-      const Excalidraw = await import('@excalidraw/excalidraw')
       _Excalidraw = Excalidraw.Excalidraw
     }
 
