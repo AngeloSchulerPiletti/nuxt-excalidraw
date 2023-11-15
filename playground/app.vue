@@ -3,8 +3,6 @@
 
 <template>
   <div>
-    <ClientOnly>
-      <ExcalidrawBoard />
-    </ClientOnly>
+    <ExcalidrawBoard />
   </div>
 </template>
