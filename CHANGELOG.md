@@ -1,5 +1,12 @@
 
 
+## [1.0.0-beta.7](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.6...1.0.0-beta.7) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: use ReactDOM ([94da43b](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/94da43bd66bf956c4d175e55f55a67b83e956419))
+
 ## [1.0.0-beta.6](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.5...1.0.0-beta.6) (2023-11-15)
 
 
