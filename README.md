@@ -116,9 +116,9 @@ const initialDataFromMyService = useMyService().data
 <template>
   <div>
     <ClientOnly>
-      <ExcalidrawBoard 
-        :on-change="myCallback" 
-        :initial-data="initialDataFromMyService" 
+      <ExcalidrawBoard
+        :on-change="myCallback"
+        :initial-data="initialDataFromMyService"
       />
     </ClientOnly>
   </div>
