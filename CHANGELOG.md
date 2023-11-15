@@ -1,5 +1,12 @@
 
 
+## [1.0.0-beta.1](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.0...1.0.0-beta.1) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: handle excalidraw default import ([44b49c6](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/44b49c60619f471cde42e6e177d25c40c0f2b620))
+
 ## [1.0.0-beta.0](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/0.1.0...1.0.0-beta.0) (2023-11-15)
 
 
