@@ -24,7 +24,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     addComponent({
       name: 'ExcalidrawBoard',
-      filePath: resolver.resolve('./runtime/components/ExcalidrawBoard.vue')
+      filePath: resolver.resolve('./runtime/components/ExcalidrawBoard.vue'),
     })
   },
 })
