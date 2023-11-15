@@ -1,5 +1,17 @@
 
 
+## [1.0.0-beta.6](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.5...1.0.0-beta.6) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: make module universal ([a6d25af](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/a6d25af6e105565b7110afee4237416a7ece0b5c))
+
+
+### 🎨 Style
+
+* :art: add missing trailling comma ([1a7123f](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/1a7123f04cd23bcfd6f5c4db27fa740138089259))
+
 ## [1.0.0-beta.5](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.4...1.0.0-beta.5) (2023-11-15)
 
 
