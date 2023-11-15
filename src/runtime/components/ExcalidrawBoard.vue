@@ -1,30 +1,27 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import React from 'react'
+import { type Root } from 'react-dom/client'
 import type { Ref } from 'vue'
 import type { ExcalidrawProps } from '@excalidraw/excalidraw/types/types'
+import { nextTick } from 'vue'
 
 export interface Props extends ExcalidrawProps {}
 
 const props = defineProps<Props>()
 
 const excalidrawRef: Ref<HTMLDivElement | null> = ref(null)
-let root: null | any = null
+let root: null | Root = null
 
-onMounted(async () => {
+onMounted( () => {
+  nextTick(async () => {
   if (excalidrawRef.value) {
     root = (await import('react-dom/client')).createRoot(excalidrawRef.value)
+    const Excalidraw = (await import('@excalidraw/excalidraw')).Excalidraw
 
-    let _Excalidraw: any
-    const Excalidraw = await import('@excalidraw/excalidraw')
-
-    if (Excalidraw.default)
-      _Excalidraw = Excalidraw.default
-    else
-      _Excalidraw = Excalidraw.Excalidraw
-
-    root.render(React.createElement(_Excalidraw, props as any))
+    root.render(React.createElement(Excalidraw, props as any))
   }
+  })
 })
 
 onBeforeUnmount(() => {
