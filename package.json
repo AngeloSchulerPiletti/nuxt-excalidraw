@@ -30,7 +30,7 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "pnpm run lint && release-it major --preRelease=beta && pnpm run prepack && pnpm publish",
+    "release": "pnpm run lint && pnpm prepack && release-it major --preRelease=beta",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "stackblitz": "npm run dev"
