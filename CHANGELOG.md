@@ -1,5 +1,19 @@
 
 
+## [1.0.0-beta.4](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.3...1.0.0-beta.4) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: make component client mode ([570bdc1](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/570bdc1d49f0ae8364d5e268d23350627464bdd0))
+* :bug: redo imports and manage tick ([f2c88d9](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/f2c88d9d782ec18d2356c55ef9c26e20cd12db8d))
+* :fire: stop using client-only ([8a56466](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/8a5646626d65e90c432d02d604c1ff95b0cd72cb))
+
+
+### 🎨 Style
+
+* :art: eslint fix code style ([c083761](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/c083761c24a4190f98a297dd923b59327c48d2a0))
+
 ## [1.0.0-beta.3](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.2...1.0.0-beta.3) (2023-11-15)
 
 
