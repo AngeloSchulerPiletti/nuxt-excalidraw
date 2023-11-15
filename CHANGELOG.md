@@ -1,5 +1,12 @@
 
 
+## [1.0.0-beta.3](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.2...1.0.0-beta.3) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: dynamic import createRoot onMounted ([9454420](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/9454420a0bcc4983f874c8a87862f9f336f3f014))
+
 ## [1.0.0-beta.2](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.1...1.0.0-beta.2) (2023-11-15)
 
 
