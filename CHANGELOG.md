@@ -1,5 +1,12 @@
 
 
+## [1.0.0-beta.5](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.4...1.0.0-beta.5) (2023-11-15)
+
+
+### 🪲 Bug Fixes
+
+* :bug: import react dom on node ([9717ec7](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/9717ec7293f47cb7372447c959e21b0a2fc4fd25))
+
 ## [1.0.0-beta.4](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/1.0.0-beta.3...1.0.0-beta.4) (2023-11-15)
 
 
