@@ -1,5 +1,13 @@
 
 
+## [1.0.0-beta.0](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/compare/0.1.0...1.0.0-beta.0) (2023-11-15)
+
+
+### 📂 Documentation
+
+* :memo: add contributing ([77956e0](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/77956e0179c279c38388a1a451e7b2e1be0bd4e5))
+* :memo: add readme ([d854d09](https://github.com/AngeloSchulerPiletti/nuxt-excalidraw/commit/d854d09dcfe5ae82d1dd0cb594bbb202c758f2ab))
+
 ## 0.1.0 (2023-11-14)
 
 
